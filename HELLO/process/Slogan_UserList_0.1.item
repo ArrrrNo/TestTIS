@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="ROR_Port" prompt="ROR_Port?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="3306"/>
+    <contextParameter comment="" name="ROR_Server" prompt="ROR_Server?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="devenv_db_1"/>
+    <contextParameter comment="" name="ROR_Login" prompt="ROR_Login?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="root"/>
+    <contextParameter comment="" name="ROR_AdditionalParams" prompt="ROR_AdditionalParams?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="ROR_Database" prompt="ROR_Database?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="ror"/>
+    <contextParameter comment="" name="ROR_Password" prompt="ROR_Password?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_Password" value="NZNgK6DuncI="/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -110,7 +117,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_8pvrgOiTEeaPKcqdZ7Pzkw" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMysqlConnection_1"/>
     <elementParameter field="TEXT" name="HOST" value="context.ROR_Server" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="context.ROR_Port" show="false"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.ROR_Database" show="false"/>
