@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_UpIc0OiUEeaPKcqdZ7Pzkw" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_UpIc0eiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Login" prompt="ROR_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_UpIc0uiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Database" prompt="ROR_Database?" promptNeeded="false" type="id_String" value="ror"/>
+    <contextParameter xmi:id="_UpIc0-iUEeaPKcqdZ7Pzkw" comment="" name="ROR_AdditionalParams" prompt="ROR_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_UpIc1OiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Password" prompt="ROR_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter xmi:id="_UpIc1eiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Server" prompt="ROR_Server?" promptNeeded="false" type="id_String" value="devenv_db_1"/>
+    <contextParameter xmi:id="_UpIc1uiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Port" prompt="ROR_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_UpIc1-iUEeaPKcqdZ7Pzkw" confirmationNeeded="false" name="staging">
+    <contextParameter xmi:id="_UpIc2OiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Login" prompt="ROR_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_UpIc2eiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Database" prompt="ROR_Database?" promptNeeded="false" type="id_String" value="ror"/>
+    <contextParameter xmi:id="_UpIc2uiUEeaPKcqdZ7Pzkw" comment="" name="ROR_AdditionalParams" prompt="ROR_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_UpIc2-iUEeaPKcqdZ7Pzkw" comment="" name="ROR_Password" prompt="ROR_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter xmi:id="_UpIc3OiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Server" prompt="ROR_Server?" promptNeeded="false" type="id_String" value="devenv_db_1"/>
+    <contextParameter xmi:id="_UpIc3eiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Port" prompt="ROR_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_UpIc3uiUEeaPKcqdZ7Pzkw" confirmationNeeded="false" name="master">
+    <contextParameter xmi:id="_UpIc3-iUEeaPKcqdZ7Pzkw" comment="" name="ROR_Login" prompt="ROR_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_UpIc4OiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Database" prompt="ROR_Database?" promptNeeded="false" type="id_String" value="ror"/>
+    <contextParameter xmi:id="_UpIc4eiUEeaPKcqdZ7Pzkw" comment="" name="ROR_AdditionalParams" prompt="ROR_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_UpIc4uiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Password" prompt="ROR_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter xmi:id="_UpIc4-iUEeaPKcqdZ7Pzkw" comment="" name="ROR_Server" prompt="ROR_Server?" promptNeeded="false" type="id_String" value="devenv_db_1"/>
+    <contextParameter xmi:id="_UpIc5OiUEeaPKcqdZ7Pzkw" comment="" name="ROR_Port" prompt="ROR_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+</xmi:XMI>
