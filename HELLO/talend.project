@@ -25,6 +25,20 @@
       <relatedItems xmi:id="_yS0JP-htEeajjM4Y5oZ4FA" id="GetRandomPhoneNum" version="Latest" type="routine"/>
       <relatedItems xmi:id="_yS0JQOhtEeajjM4Y5oZ4FA" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_4cWMEOiVEeaPKcqdZ7Pzkw">
+      <baseItem xmi:id="_4cWMEeiVEeaPKcqdZ7Pzkw" id="_pJHKAOh-EeaPKcqdZ7Pzkw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_4cWMEuiVEeaPKcqdZ7Pzkw" id="_8pvrgOiTEeaPKcqdZ7Pzkw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_4cWME-iVEeaPKcqdZ7Pzkw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_4cWMFOiVEeaPKcqdZ7Pzkw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_4cWMFeiVEeaPKcqdZ7Pzkw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_4cWMFuiVEeaPKcqdZ7Pzkw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_4cWMF-iVEeaPKcqdZ7Pzkw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_4cWMGOiVEeaPKcqdZ7Pzkw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_4cWMGeiVEeaPKcqdZ7Pzkw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_4cWMGuiVEeaPKcqdZ7Pzkw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_4cWMG-iVEeaPKcqdZ7Pzkw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_4cWMHOiVEeaPKcqdZ7Pzkw" id="_8pvrgOiTEeaPKcqdZ7Pzkw - annuaire_individu" version="Latest" type="schema"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_rIaYAOhtEeajjM4Y5oZ4FA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_rIaYAehtEeajjM4Y5oZ4FA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_rIaYAuhtEeajjM4Y5oZ4FA" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
