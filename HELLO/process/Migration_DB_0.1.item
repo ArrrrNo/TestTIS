@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="ROR_Port" prompt="ROR_Port?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="3306"/>
-    <contextParameter comment="" name="ROR_Server" prompt="ROR_Server?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="devenv_db_1"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="dev" jobType="Standard">
+  <context confirmationNeeded="false" name="dev">
     <contextParameter comment="" name="ROR_Login" prompt="ROR_Login?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="root"/>
-    <contextParameter comment="" name="ROR_AdditionalParams" prompt="ROR_AdditionalParams?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="noDatetimeStringSync=true"/>
     <contextParameter comment="" name="ROR_Database" prompt="ROR_Database?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="ror"/>
+    <contextParameter comment="" name="ROR_AdditionalParams" prompt="ROR_AdditionalParams?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="noDatetimeStringSync=true"/>
     <contextParameter comment="" name="ROR_Password" prompt="ROR_Password?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="ROR_Server" prompt="ROR_Server?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="devenv_db_1"/>
+    <contextParameter comment="" name="ROR_Port" prompt="ROR_Port?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="3306"/>
+  </context>
+  <context confirmationNeeded="false" name="staging">
+    <contextParameter comment="" name="ROR_Login" prompt="ROR_Login?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="root"/>
+    <contextParameter comment="" name="ROR_Database" prompt="ROR_Database?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="ror"/>
+    <contextParameter comment="" name="ROR_AdditionalParams" prompt="ROR_AdditionalParams?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="ROR_Password" prompt="ROR_Password?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="ROR_Server" prompt="ROR_Server?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="devenv_db_1"/>
+    <contextParameter comment="" name="ROR_Port" prompt="ROR_Port?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="3306"/>
+  </context>
+  <context confirmationNeeded="false" name="master">
+    <contextParameter comment="" name="ROR_Login" prompt="ROR_Login?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="root"/>
+    <contextParameter comment="" name="ROR_Database" prompt="ROR_Database?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="ror"/>
+    <contextParameter comment="" name="ROR_AdditionalParams" prompt="ROR_AdditionalParams?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="ROR_Password" prompt="ROR_Password?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="ROR_Server" prompt="ROR_Server?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="devenv_db_1"/>
+    <contextParameter comment="" name="ROR_Port" prompt="ROR_Port?" promptNeeded="false" repositoryContextId="_Uop7sOiUEeaPKcqdZ7Pzkw" type="id_String" value="3306"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
