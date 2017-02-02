@@ -40,6 +40,19 @@
       <relatedItems xmi:id="_4cWMHOiVEeaPKcqdZ7Pzkw" id="_8pvrgOiTEeaPKcqdZ7Pzkw - annuaire_individu" version="Latest" type="schema"/>
       <relatedItems xmi:id="_LpG74OiWEeaPKcqdZ7Pzkw" id="_Uop7sOiUEeaPKcqdZ7Pzkw" version="Latest" type="context"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_dbyywOk4EeapU5I08Eag8A">
+      <baseItem xmi:id="_dbyywek4EeapU5I08Eag8A" id="_dVZFQOk3EeapU5I08Eag8A" version="0.1" type="job"/>
+      <relatedItems xmi:id="_dbyywuk4EeapU5I08Eag8A" id="_8pvrgOiTEeaPKcqdZ7Pzkw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_dbyyw-k4EeapU5I08Eag8A" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_dbyyxOk4EeapU5I08Eag8A" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_dbyyxek4EeapU5I08Eag8A" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_dbyyxuk4EeapU5I08Eag8A" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_dbyyx-k4EeapU5I08Eag8A" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_dbyyyOk4EeapU5I08Eag8A" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_dbyyyek4EeapU5I08Eag8A" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_dbyyyuk4EeapU5I08Eag8A" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_dbyyy-k4EeapU5I08Eag8A" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_rIaYAOhtEeajjM4Y5oZ4FA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_rIaYAehtEeajjM4Y5oZ4FA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_rIaYAuhtEeajjM4Y5oZ4FA" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
